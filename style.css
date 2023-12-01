@@ -350,3 +350,36 @@
   line-height: 24px;
   white-space: nowrap;
 }
+
+
+@media (max-width: 991px) {
+  .featured-collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px 20px;
+  }
+ .p{
+  max-width: 390px;
+ }
+
+  .featured-collection .frame-2 {
+    flex-direction: column;
+  }
+
+  .featured-collection .product-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+  
+  }
+
+  .frame .frame-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
